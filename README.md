@@ -5,7 +5,7 @@
 As part of my practical test I was supposed to develop an application that would query "Lietuvos Bankas" 
 for currency data, preprocess the data and return it to the client. 
 
-The application is developed with Java 11 and Spring Boot framework as a RESTful API.
+The application is developed with Java 11 (Amazon Correto JDK 11) and Spring Boot framework as a RESTful API.
 
 ### The project consists of 3 packages: 
     * controllers - Pakacge that hold HTTP controllers
