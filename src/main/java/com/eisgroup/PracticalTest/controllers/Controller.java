@@ -18,7 +18,7 @@ import java.util.List;
 public class Controller {
 
     @Autowired
-    private CurrencyBankService currencyBankService;
+    public CurrencyBankService currencyBankService;
 
     @RequestMapping(value="/currency", method = RequestMethod.POST)
     public ResponseEntity<List<CurrencyResponse>> currency(@RequestBody final CurrencyRequest cr) throws ExceptionHandler.CurrencyException {
